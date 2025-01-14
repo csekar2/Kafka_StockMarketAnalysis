@@ -50,6 +50,15 @@ Topics act as logical buckets within Kafka brokers and represent streams of rela
     - Update Kafka server configuration to use the instance's public IP for external access.
 3. Configure AWS security:
     - Modify the security group's inbound rules to allow all traffic (Anywhere-IPv4).
+4. Open two more terminal for producer and consumer.
+
+
+Basically, there must be 4 terminals (zookeeper, kafka server, Prodcuer, Consumer).
+
+All terminals must be connected to the ec2 instance and must be inside the kafka directory.
+
+
+Run the commands from `command.txt` to ensure the correct setup.
 
 ### 2. Simulating Stock Market Data
 Since real-time stock market data is not accessible, simulated data is generated using Python.
@@ -59,9 +68,7 @@ Since real-time stock market data is not accessible, simulated data is generated
     - **Producer.ipynb**: Sends simulated data to Kafka topics as a stream.
     - **Consumer.ipynb**: Reads and processes data from Kafka topics.
 2. Verify data flow in both Jupyter notebooks and terminal outputs.
-3. Open a new terminal and repeat Step 3 and Step 5 for producer and consumer.
-  
-Run the commands from `command.txt` to ensure the correct setup.
+
 
 ### 3. Storing Data in AWS S3
 - **Create an S3 bucket** for storing processed data.
