@@ -3,7 +3,8 @@
 ## Overview
 This project demonstrates real-time data analysis of stock market data using Apache Kafka. The pipeline involves streaming data, processing it, and storing it in AWS services for querying and analysis. The project showcases the core components of Kafka and AWS integration.
 
----
+---<img width="797" alt="Screenshot 2025-01-14 at 3 53 30 PM" src="https://github.com/user-attachments/assets/ef985384-c338-4068-a75b-90282de0a05b" />
+
 
 ## Introduction to Apache Kafka
 Apache Kafka is a distributed event store and stream-processing platform. It is designed for high-throughput and fault-tolerant real-time data pipelines.
